@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="bg-slate-200 w-full h-screen flex justify-center items-center">
+      <div
+        class="bg-slate-400 w-1/2 h-1/2 flex justify-evenly items-center rounded-md relative"
+      >
+        <div
+          id="oneDiv"
+          class="bg-gray-700 w-12 h-12 rounded-full flex justify-center items-center text-3xl ocultar cursor-pointer"
+        ></div>
+        <div
+          id="twoDiv"
+          class="bg-gray-700 w-12 h-12 rounded-full flex justify-center items-center text-3xl ocultar cursor-pointer"
+        ></div>
+        <div
+          id="threeDiv"
+          class="bg-gray-700 w-12 h-12 rounded-full flex justify-center items-center text-3xl ocultar cursor-pointer"
+        ></div>
+        <div
+          id="fourDiv"
+          class="bg-gray-700 w-12 h-12 rounded-full flex justify-center items-center text-3xl ocultar cursor-pointer"
+        ></div>
+        <div
+          id="fiveDiv"
+          class="bg-gray-700 w-12 h-12 rounded-full flex justify-center items-center text-3xl ocultar cursor-pointer"
+        ></div>
+
+        <button
+          id="btn"
+          class="hover:bg-slate-950 absolute bg-slate-600 bottom-5 p-4 rounded-md text-slate-100 text-lg font-bold cursor-pointer"
+        >
+          Empezar
+        </button>
+        <div
+          class="absolute text-4xl font-bold w-full h-52 bg-green-500 flex justify-center items-center text-white  rounded-3xl invisible"
+          id="winDiv"
+        ></div>
+        <div
+          class="absolute text-4xl font-bold w-full h-52 bg-red-500 flex justify-center items-center text-white rounded-3xl invisible"
+          id="loserDiv"
+        >
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
